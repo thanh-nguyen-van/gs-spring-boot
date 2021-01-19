@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                      cd complete & ./mvnw spring-boot:run
+                      cd complete  && ./mvnw spring-boot:run
                     '''
                 }
             }
